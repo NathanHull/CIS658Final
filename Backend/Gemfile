@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 ### REQUIREMENT: USE GEM NOT USED IN CLASS ###
 # active_export allows exporting of ActiveRecord
 # data in csv, xml, yaml string or file
-gem `active_export`
+gem 'active_export'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
