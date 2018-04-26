@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 # data in csv, xml, yaml string or file
 gem 'active_export'
 
+# To present API endpoints to React frontend
+gem 'rack-cors', :require => 'rack/cors'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
