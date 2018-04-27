@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180426194734) do
+ActiveRecord::Schema.define(version: 2018_04_27_021323) do
 
   create_table "companies", force: :cascade do |t|
     t.string "name"
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20180426194734) do
     t.text "description"
     t.datetime "created_at", null: false
     t.integer "amount"
-    t.integer "company_id"
     t.datetime "updated_at", null: false
+    t.integer "company_id"
     t.index ["company_id"], name: "index_entries_on_company_id"
   end
 
